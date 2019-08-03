@@ -4,7 +4,8 @@
   "description": "project mora : delay you messages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "webpack -w",
+    "server": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/austinStotts/project.mora#readme",
   "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "aws-sdk": "^2.503.0",
     "babel-loader": "^8.0.6",
     "express": "^4.17.1",
     "react": "^16.8.6",
